@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "fastapi-dev": "pip3 install -r requirements.txt && python3 /home/aibd/webtest/hb/hb/pages/api/run.py",
     "dev": "cd /home/aibd/webtest/hb/hb && next dev -p 4000",
     "build": "next build",
     "start": "cd /home/aibd/webtest/hb/hb && next start -p 4000 ",
