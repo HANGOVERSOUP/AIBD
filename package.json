@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "fastapi-dev": "pip3 install -r requirements.txt && python3 /home/aibd/webtest/hb/hb/pages/api/run.py",
-    "dev": "cd /home/aibd/webtest/hb/hb && next dev -p 4000",
+    "dev": "concurrently \"npm run next-dev\" \"npm run fastapi-dev\"",
     "build": "next build",
     "start": "cd /home/aibd/webtest/hb/hb && next start -p 4000 ",
     "lint": "next lint"
