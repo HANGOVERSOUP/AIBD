@@ -49,7 +49,8 @@ export default function SignIn() {
       formData.append('password', userpwd);
   
       try {
-        const response = await fetch('https://115.68.193.117:9999/users/token', {
+        // const response = await fetch('http://115.68.193.117:9999/users/token', {
+        const response = await fetch('https://aibd.vercel.app/api/users/token', {
           method: 'POST',
           credentials: 'include',
           headers: {
