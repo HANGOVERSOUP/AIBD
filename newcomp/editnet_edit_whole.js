@@ -292,7 +292,7 @@ export default function FullFeaturedCrudGrid({file,fileque,onDataReceived }) {
         //   label="Delete"
         //   onClick={handleDeleteClick(id)}
         //   color="inherit"
-        // />,
+        // ee/>,
       ];
     },
   });
